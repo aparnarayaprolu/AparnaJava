@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" thread-count="4">
+  <test name="FirefoxMacTest">
+  <parameter name="browserType" value="firefox"/>
+  <parameter name="env" value ="mac" />
+    <classes>
+      <class name="testng.AmazonCrossBrowserTest"/>
+    </classes>
+  </test> <!-- Test -->
+    
+    
+</suite> <!-- Suite -->

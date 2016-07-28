@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]">
+  <parameter name="env" value="mac"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="FirefoxMacTest(failed)">
+    <parameter name="env" value="mac"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="testng.AmazonCrossBrowserTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="AmazonHomeAddToCartTestMethod" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testng.AmazonCrossBrowserTest -->
+    </classes>
+  </test> <!-- FirefoxMacTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
